@@ -1,0 +1,57 @@
+[
+
+    {
+        "label": "Display settings",
+        "name":"display_settings",
+        "inputs": [
+            {
+                "type":"image",
+                "name":"left_image",
+                "label":"Left box's image logo"
+            },
+            {
+                "type":"image",
+                "name":"right_image",
+                "label":"Right box's image logo"
+            },
+            {
+                "type": "action",
+                "name": "leftBoxState",
+                "values": [
+                    {
+                        "name": "show",
+                        "label": "Show Leftbox"
+                    },
+                    {
+                        "name": "hide",
+                        "label": "Hide Leftbox"
+                    }
+                ]
+            },
+            {
+                "type": "action",
+                "name": "rightBoxState",
+                "values": [
+                    {
+                        "name": "show",
+                        "label": "Show Rightbox"
+                    },
+                    {
+                        "name": "hide",
+                        "label": "Hide Rightbox"
+                    }
+                ]
+            },
+            {
+                "type": "action",
+                "name": "toggleRadarView",
+                "values": [
+                    {
+                        "name": "toggler",
+                        "label": "Toggle radar view"
+                    }
+                ]
+            }
+        ]
+    }
+]

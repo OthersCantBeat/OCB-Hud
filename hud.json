@@ -1,0 +1,12 @@
+{
+    "name":"OCB Custom Hud",
+    "version":"1.0 Beta",
+    "author":"msiebenmedia",
+    "legacy": false,
+    "radar": true,
+    "killfeed": true,
+    "boltobserv":{
+        "css":true,
+        "maps":true
+    }
+}
